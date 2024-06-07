@@ -2,12 +2,9 @@ OBJECTIVE:
  To understand the working of a scalar pipelined processor by simulating the different components of software level.
 
 RUN AND EXECUTE THE CODE IN WINDOWS
- 
- commands : g++ .\main.cpp ;
- 
+ commands : g++ .\main.cpp 
  commands : ./a.exe --dcache FILE_DIRECTORY_OF_DCACHE --icache FILE_DIRECTORY_OF_ICACHE --rf FILE_DIRECTORY_OF_RF
- 
-     Then,
+ Then,
          Both DCache.txt file,output.txt will contain the expected results.These files will be newly formed or overwritten if previously exists.If you want to pass these files names use flags --dcacheout and --out respectively.
          
      FOR EXAMPLE:
